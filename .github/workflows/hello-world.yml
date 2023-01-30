@@ -6,4 +6,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - run: ls -la
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
       - run: make say-hello
